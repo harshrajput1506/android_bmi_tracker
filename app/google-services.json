@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "253532087938",
+    "project_id": "bmi-tracker-85567",
+    "storage_bucket": "bmi-tracker-85567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253532087938:android:163c13a87e9684fa1bb69b",
+        "android_client_info": {
+          "package_name": "com.example.bmitracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253532087938-lv0ddkrmjc3nu2kp1a2852r3qtel0sbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmitracker",
+            "certificate_hash": "9aca8912795e919c11135a23844338b1254d08cb"
+          }
+        },
+        {
+          "client_id": "253532087938-5fsusidqqcuemht9qucodn3748gfkdcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsLgaMZxWkvBXu0jwPhS8hlZUyeucKRMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253532087938-5fsusidqqcuemht9qucodn3748gfkdcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
