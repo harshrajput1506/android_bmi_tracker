@@ -6,6 +6,10 @@ Welcome to the BMI Tracker Android App! This application helps you calculate you
     <img src="https://img.shields.io/badge/Kotlin-1DA1F2?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Badge"/>
     <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Badge"/>
     <img src="https://img.shields.io/badge/Jetpack%20Compose-blueviolet?style=for-the-badge&logo=android&logoColor=white" alt = "Jetpack Compose Badge"/>
+    <img src="https://img.shields.io/badge/Hilt-Dagger-3963BC?style=for-the-badge" alt="Hilt Dagger Badge"/>
+    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge"/>
+    <img src="https://img.shields.io/badge/Firestore-FF9800?style=for-the-badge&logo=firebase&logoColor=white" alt="Firestore Badge"/>
+    <img src="https://img.shields.io/badge/DataStore-1A73E8?style=for-the-badge" alt="DataStore Badge"/>
 </p>
 
 <p align="center">
@@ -19,6 +23,12 @@ Welcome to the BMI Tracker Android App! This application helps you calculate you
 - **Weight Tracking**: Track your weight over time with an interactive graph illustration.
 - **Minimalistic UI**: Simple and easy-to-use interface for seamless user experience.
 
+## Checkout the App
+
+Explore the BMI Tracker app and start tracking your health today!
+
+[![Download APK](https://img.shields.io/badge/Download-APK-blue.svg?style=for-the-badge)](https://drive.google.com/file/d/1ZyvO0r_ezz5VYZ4bSsKHStM-aWbZLglv/view?usp=sharing)
+
 ## Screenshots
 
 <p align="center">
@@ -27,6 +37,15 @@ Welcome to the BMI Tracker Android App! This application helps you calculate you
     <img src="/screenshots/Screenshot_2.png" alt="Screenshot 2" width="250"/>
     <img src="/screenshots/bmi_screen_recording.gif" alt="Screen Recrding GIF" width="250"/>
 </p>
+
+## Tech Stack and Libraries
+
+- **Programming Language**: Kotlin
+- **UI Toolkit**: Jetpack Compose
+- **Dependency Injection**: Hilt with Dagger
+- **Authentication**: Firebase Authentication (Google Sign-In)
+- **Cloud Database**: Firestore
+- **Local Database**: DataStore
 
 ## Getting Started
 
@@ -46,12 +65,6 @@ Welcome to the BMI Tracker Android App! This application helps you calculate you
 3. Connect your Android device or start an emulator.
 
 4. Build and run the app.
-
-## Checkout the App
-
-Explore the BMI Tracker app and start tracking your health today!
-
-[![Download APK](https://img.shields.io/badge/Download-APK-blue.svg?style=for-the-badge)](https://drive.google.com/file/d/1ZyvO0r_ezz5VYZ4bSsKHStM-aWbZLglv/view?usp=sharing)
 
 ## Contributing
 
