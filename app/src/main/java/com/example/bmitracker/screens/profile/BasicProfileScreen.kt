@@ -74,7 +74,7 @@ fun BasicProfileScreen(
     var showDatePicker by remember {
         mutableStateOf(false)
     }
-    val formatter = SimpleDateFormat("EEE, dd MMM yyyy", Locale.getDefault())
+    val formatter = SimpleDateFormat("EEE, d MMM yyyy", Locale.getDefault())
     val currentDate = Date()
 
     Box (

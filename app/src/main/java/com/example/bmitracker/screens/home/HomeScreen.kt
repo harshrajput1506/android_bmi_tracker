@@ -437,7 +437,7 @@ fun weightRecordsToOffsets(
 ): List<Offset> {
     val sortedData = data.sortedBy {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val dateFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy")
+            val dateFormatter = DateTimeFormatter.ofPattern("EEE, d MMM yyyy")
             LocalDate.parse(it.date, dateFormatter)
         } else {
             TODO("VERSION.SDK_INT < O")
