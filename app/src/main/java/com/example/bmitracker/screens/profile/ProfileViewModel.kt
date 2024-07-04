@@ -98,18 +98,20 @@ class ProfileViewModel @Inject constructor(
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun onSave() {
-        if(isInputChanges()) {
-            val user = _state.value.user
-            if(user.profile.weight.isEmpty() || user.profile.height.isEmpty() || user.profile.dob.isNullOrEmpty()){
-                _state.value = _state.value.copy(isError = true)
-            } else {
+        val user = _state.value.user
+        if(user.profile.weight.isEmpty() || user.profile.height.isEmpty() || user.profile.dob.isNullOrEmpty()){
+            _state.value = _state.value.copy(isError = true)
+        } else {
+            if(isInputChanges()) {
                 _state.value = _state.value.copy(isLoading = true)
                 saveUserData()
+            } else {
+                // Back to previous screen
+                _state.value = _state.value.copy(isUpdated = true)
             }
-        } else {
-            // Back to previous screen
-            _state.value = _state.value.copy(isUpdated = true)
+
         }
+
 
 
     }

@@ -48,7 +48,7 @@ class DataSession @Inject constructor(
         return dataStore.data.catch {
             emit(emptyPreferences())
         }.map { preference ->
-            preference[bmiKey] ?: ""
+            preference[bmiKey] ?: "0"
         }
     }
 
