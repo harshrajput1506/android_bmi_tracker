@@ -84,6 +84,7 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation (libs.androidx.datastore.preferences)
     implementation(libs.androidx.datastore)
+    implementation ("com.google.firebase:firebase-analytics-ktx:22.1.2")
 
 }
 kapt {
